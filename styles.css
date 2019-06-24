@@ -1,0 +1,134 @@
+body{
+  background-image: url("http://papers.co/wallpaper/papers.co-nt75-city-architecture-nature-night-36-3840x2400-4k-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-position:  fill;
+  background-size: 100%;
+}
+
+*{
+  margin: 0;
+  padding:0;
+}
+.cf:before,.cf:after{
+  content: '';  
+  display: table;
+}
+.cf:after{
+  clear:both;    
+}
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  color:#444;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 14px;
+}
+.container{
+  position: relative;
+  margin: 50px auto;
+  max-width: 80%;
+  background-color: rgb(241,241,241,.25);
+  padding: 10px;
+  border:1px solid #c5c5c5;
+}
+
+.gallery{
+  width: 100%;
+  overflow: hidden;
+}
+
+.image{
+  /* float:left not working in mozilla*/
+  display: inline-block;
+  padding: 2%;
+  background-color: rgb(20,20,20,0.9);
+  margin: 1%;
+  width: 13%;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+  text-align: center;  
+  /*border:1px solid #c3c3c3;*/
+  cursor: pointer;
+  border-radius: 50%;
+  height: 140px;
+}
+
+.image figure{
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.image figure img{
+  height: 140px;
+  width: 100%;
+  border-radius: 50%; 
+}
+
+figcaption{
+  background-color: rgb(20,20,20);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+  cursor: pointer;
+  color: slategrey;
+  max-width:100%;
+  font-weight: bold;
+}
+
+figcaption:hover{
+  color: #fff;
+}
+
+.containerB{
+  color: white;
+  font-family: sans-serif;
+}
+
+.containerB .title{
+  font-size: 25px;
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+  background-color: rgb(20,20,20,0.9);
+  padding: 5px 5px;
+}
+
+.form{
+  padding: 15px 15px 15px 95px;
+  background-color: rgb(20,20,20,0.9);
+}
+
+.formtitle{
+  color: orange;
+  font-weight: bold;
+}
+
+.form li {
+  padding: 7.5px 7.5px;
+  list-style: none;
+}
+
+input {
+  display: inline-block;
+  float: right;
+  margin-right: 150px;
+  width: 450px;
+}
+
+textarea{
+  float: right;
+  margin-right: 150px;
+  width: 450px;
+}
+
+.form button{
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  padding: 7.5px 15px;
+  color: white;
+  background-color: rgb(255,205,0,0.75);
+}

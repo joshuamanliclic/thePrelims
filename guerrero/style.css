@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 5px;
+}
+
+p {
+	font-family: Tempus Sans ITC;
+	color: #23272a;
+}
+
+
+h2 {
+	font-family: Bradley Hand ITC;
+	text-decoration: underline;
+	color: #ff084a;
+}
+
+.banner {
+			background: url(images/banner9.jpg);
+			width: 800px;
+			height: 400px;
+			border-radius: 60px;
+		}
+.background {
+			width: 100%;
+		}
+.headerpicture {
+			margin-top: 30px;
+  			width: 190px;
+  			height: 190px;
+  			border-radius: 50%;
+}
+.headername {
+	text-align: center;
+	font-size: 60px;
+	font-family: Bradley Hand ITC;
+	color: #111111;
+}
+
+.yp {
+	color: #ff084a;
+	font-size: 20px;
+}
+
+.data {
+	font-family: Tempus Sans ITC;
+}
+
+.informatics {
+	border-radius: 20px;
+}
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ffc9e2;
+  color: black;
+  padding: 5px 10px;
+  margin: 2px;
+}
